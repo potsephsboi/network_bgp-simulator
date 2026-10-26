@@ -22,3 +22,6 @@ neighbors and the parent, through Unix-domain socket pairs.
 
 Routers use poll() to wait for incoming messages. Dedicated parent–router sockets 
 carry routing-table requests and responses, while the parent handles CLI input.
+
+Build & Run:
+make run
